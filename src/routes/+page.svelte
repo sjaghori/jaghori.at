@@ -1,2 +1,10 @@
-<h1>Welcome to SvelteKit</h1>
-<p>Visit <a href="https://kit.svelte.dev">kit.svelte.dev</a> to read the documentation</p>
+<script lang="ts">
+	import Name from '../components/Name.svelte';
+</script>
+
+<Name />
+
+<p>
+	I'm a software engineer based in Austria. I'm passionate about building software that is scalable,
+	maintainable, and user-friendly.
+</p>
